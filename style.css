@@ -26,6 +26,22 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
+/* modification apportée */
+.promesse h2{
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 130px;
+    padding-bottom: 20px;
+}
+.promesse p{
+    font-size: 20px;
+}
+.col-xs-12 p{
+    font-size: 18px;
+    margin: 0 70px;
+    font-weight: 600;
+}
+
 
 .bloc {
     width: 100%;
@@ -305,6 +321,7 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    height: 40px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -660,6 +677,8 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    font-weight: 700;
+    text-align: center;
 }
 
 .hero-bloc-text-sub {
@@ -774,8 +793,14 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
+
+.tc-white{
     color: #F3976C!important;
+}
+.text{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
 }
 
 .btn-atomic-tangerine {

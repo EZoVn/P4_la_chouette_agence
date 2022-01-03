@@ -1,6 +1,5 @@
 <!doctype html>
-<!-- balise lang incorrect -->
-<html lang="Default">
+<html lang="fr">
 
 <head>
 	<meta charset="utf-8">
@@ -23,7 +22,7 @@
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
 	<!-- titre de page a remplacer par contact -->
-	<title>page2</title>
+	<title>Contact</title>
 
 
 	<!-- Analytics -->
@@ -37,21 +36,15 @@
 	<div class="page-container">
 
 		<!-- bloc-0 -->
-		<div class="bloc bgc-white l-bloc " id="bloc-0">
+		<header class="bloc bgc-white l-bloc " id="bloc-0">
 			<div class="container bloc-sm">
 				<nav class="navbar row">
 					<div class="navbar-header">
 						<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png"
 								alt="atlanta web design logo" height="40" /></a>
-						<!-- button toogle navigation inutile -->
-						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle"
-							data-toggle="collapse" data-target=".navbar-1">
-							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
-								class="icon-bar"></span><span class="icon-bar"></span>
-						</button>
 					</div>
-					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-						<!-- bouton mal placer et inutile -->
+					<!-- bouton mal placer et inutile -->
+					<!-- <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 						<ul class="site-navigation nav navbar-nav">
 							<li>
 								<a href="index.html">Accueil</a>
@@ -59,26 +52,24 @@
 							<li>
 							</li>
 							<li>
-								<a href="page2.html">page2 &gt;</a>
+								<a href="contact.html">page2 &gt;</a>
 							</li>
 						</ul>
-					</div>
+					</div> -->
 				</nav>
 			</div>
-		</div>
+		</header>
 		<!-- bloc-0 END -->
 
 		<!-- bloc-6 -->
 		<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 			<div class="container bloc-lg">
 				<div class="row">
-					<div class="col-sm-12">
-						<!-- titre invisible -->
-						<h1 class="text-center hero-bloc-text tc-white">
+					<div class="col-sm-12 tc-white">
+						<h1 class="text-center hero-bloc-text">
 							Parlons web design !
 						</h1>
-						<!-- texte invisible -->
-						<p class="text-center mg-lg tc-white tight-width-whitespace">
+						<p class="text-center mg-lg tight-width-whitespace text">
 							Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 							Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 						</p>
@@ -99,20 +90,20 @@
 								<!-- mettre input dans label -->
 								<label>
 									Nom
+									<input id="name" class="form-control" required />
 								</label>
-								<input id="name" class="form-control" required />
 							</div>
 							<div class="form-group">
 								<label>
 									Adresse email
+									<input id="email" class="form-control" type="email" required />
 								</label>
-								<input id="email" class="form-control" type="email" required />
 							</div>
 							<div class="form-group">
 								<label>
 									Comment nous avez-vous connu ?
+									<input class="form-control" type="email" required id="input_504" />
 								</label>
-								<input class="form-control" type="email" required id="input_504" />
 							</div>
 							<div class="form-group">
 								<label>
@@ -127,6 +118,7 @@
 						</form>
 					</div>
 					<div class="col-sm-6">
+						<!-- utiliser un mailto? -->
 						<p>
 							contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi
 							au vendredi<br>
@@ -139,13 +131,13 @@
 
 		<!-- bouton invisible et erreur -->
 		<!-- ScrollToTop Button -->
-		<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
-				class="fa fa-chevron-up"></span></a>
+		<!-- <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
+				class="fa fa-chevron-up"></span></a> -->
 		<!-- ScrollToTop Button END-->
 
 
 		<!-- Footer - bloc-8 -->
-		<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+		<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 			<div class="container bloc-sm">
 				<div class="row">
 					<div class="col-sm-12">
@@ -155,32 +147,30 @@
 						<!-- tout ce qui suit est invisible sur le site -->
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
-								<!-- voir si rediriger vers la page d'acceuil ne joue pas en la defaveur du SEO ou mettre # -->
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+									<a class="social" href="#"><span class="fa fa-twitter icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+									<a class="social" href="#"><span class="fa fa-facebook icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+									<a class="social" href="#"><span class="fa fa-dribbble icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span
-											class="fa fa-instagram icon-md"></span></a>
+									<a class="social" href="#"><span class="fa fa-instagram icon-md"></span></a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</footer>
 		<!-- Footer - bloc-8 END -->
 
 	</div>
