@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -44,7 +44,7 @@
 								alt="atlanta web design logo" height="40" /></a>
 					</div>
 					<!-- bouton mal placer et inutile -->
-					<!-- <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 						<ul class="site-navigation nav navbar-nav">
 							<li>
 								<a href="index.html">Accueil</a>
@@ -55,7 +55,7 @@
 								<a href="contact.html">page2 &gt;</a>
 							</li>
 						</ul>
-					</div> -->
+					</div>
 				</nav>
 			</div>
 		</header>
@@ -87,38 +87,36 @@
 						<form id="form_1" novalidate success-msg="Your message has been sent."
 							fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 							<div class="form-group">
-								<!-- mettre input dans label -->
-								<label>
-									Nom
-									<input id="name" class="form-control" required />
+								<label for="name">
+									Nom<br>
 								</label>
+								<input id="name" class="form-control" required />
 							</div>
 							<div class="form-group">
-								<label>
-									Adresse email
-									<input id="email" class="form-control" type="email" required />
+								<label for="email">
+									Adresse email<br>
 								</label>
+								<input id="email" class="form-control" type="email" required />
 							</div>
 							<div class="form-group">
-								<label>
-									Comment nous avez-vous connu ?
-									<input class="form-control" type="email" required id="input_504" />
+								<label for="input_504">
+									Comment nous avez-vous connu ?<br>
 								</label>
+								<input class="form-control" type="email" required id="input_504" />
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="message">
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-								</label><textarea id="message" class="form-control" rows="4" cols="50"
+								</label><textarea id="message" class="form-control form-control1" rows="4" cols="50"
 									required></textarea>
 							</div>
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
-								type="submit">
+								type="submit" aria-label="bouton envoyer">
 								Envoyer
 							</button>
 						</form>
 					</div>
 					<div class="col-sm-6">
-						<!-- utiliser un mailto? -->
 						<p>
 							contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi
 							au vendredi<br>
@@ -128,42 +126,38 @@
 			</div>
 		</div>
 		<!-- bloc-7 END -->
-
-		<!-- bouton invisible et erreur -->
-		<!-- ScrollToTop Button -->
-		<!-- <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
-				class="fa fa-chevron-up"></span></a> -->
-		<!-- ScrollToTop Button END-->
-
-
 		<!-- Footer - bloc-8 -->
 		<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 			<div class="container bloc-sm">
 				<div class="row">
 					<div class="col-sm-12">
-						<p class="text-center white">
+						<p class="text-center black">
 							La chouette agence - Agence web basée à Lyon.<br>
 						</p>
 						<!-- tout ce qui suit est invisible sur le site -->
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="#"><span class="fa fa-twitter icon-md"></span></a>
+									<a class="social" href="https://twitter.com" aria-label="logo de twitter"><span
+											class="fa fa-twitter icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="#"><span class="fa fa-facebook icon-md"></span></a>
+									<a class="social" href="https://fr-fr.facebook.com"
+										aria-label="logo de facebook"><span class="fa fa-facebook icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="#"><span class="fa fa-dribbble icon-md"></span></a>
+									<a class="social" href="https://dribbble.com" aria-label="logo de dribble"><span
+											class="fa fa-dribbble icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="#"><span class="fa fa-instagram icon-md"></span></a>
+									<a class="social" href="https://www.instagram.com"
+										aria-label="logo d'instagram"><span class="fa fa-instagram icon-md"></span></a>
 								</div>
 							</div>
 						</div>
