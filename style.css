@@ -6,7 +6,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
 a,
 button {
     transition: all .3s ease-in-out;
@@ -522,20 +521,17 @@ button {
 .panel-rd .panel-footer {
     border-radius: 0 0 29px 29px;
 }
-.form-group{
-    padding-bottom: 10px;
-}
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
-    width: 250px;
-    height: 24px;
+    width: 95%;
+    height: 30px;
     padding: 4px;
     font-size: 14px;
     border-radius: 8px;
 }
 .form-control1{
-    width: 500px;
+    width: 95%;
     height: 100px;
 }
 .scrollToTop {
@@ -707,7 +703,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -730,6 +726,8 @@ p {
 }
 
 .social {
+    display: flex;
+    justify-content: space-evenly;
     max-width: 400px;
     margin: auto auto auto auto;
     color: rgba(0, 0, 0, .8)!important;
@@ -1076,14 +1074,12 @@ h4 {
         height: 320px;
     }
 }
-
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
 }
-
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
